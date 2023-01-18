@@ -20,28 +20,28 @@
 
 <br/>
 
-# Tabela de conteúdos
+## Tabela de conteúdos
 
-<!--ts-->
+<!-- vscode-markdown-toc -->
 
-- [Tabela de Conteudo](#tabela-de-conteudo)
-- [Sobre](#Sobre-o-projeto)
+- [Sobre](#sobre-o-projeto)
 - [Layout](#layout)
 - [Tecnologias](#tecnologias)
-- [Começando](#Começando)
+- [Começando](#começando)
   - [Requisitos](#requisitos)
 - [Licença](#licença)
-<!--te-->
+
+<!-- vscode-markdown-toc -->
 
 <br/>
 
-## 👨🏻‍💻 Sobre o projeto
+## <a name='sobre-o-projeto'></a> 👨🏻‍💻 Sobre o projeto
 
 A Next Level Week Setup esta na 11º edição desse evento oferecido pela [Rocketseat](https://rocketseat.com.br) para a comunidade. Nessa edição, na trilha Ignite, vamos desenvolver um projeto de controle de hábitos habit tracker, uma ferramenta de acompanhamento de hábitos para o usuário colocar em prática suas resoluções e metas, ou seja, registrar ações e acompanhar a evolução dos novos hábitos que deseja colocar na sua rotina.
 
 <br/>
 
-## 🔖 Layout
+## <a name='layout'></a> 🔖 Layout
 
 Você pode visualizar o layout do projeto através do link abaixo:
 
@@ -51,7 +51,7 @@ Lembrando que você precisa ter uma conta para acessá-lo [Figma](http://figma.c
 
 <br/>
 
-## 🚀 Tecnologias
+## <a name='tecnologias'></a> 🚀 Tecnologias
 
 Tecnologias utilizadas
 
@@ -68,9 +68,9 @@ Tecnologias utilizadas
 
 <br/>
 
-## 💻 Começando
+## <a name='começando'></a> 💻 Começando
 
-### Requisitos
+### <a name='requisitos'></a> Requisitos
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) ou [npm](https://www.npmjs.com/)
@@ -174,7 +174,7 @@ Depois que sua solicitação pull for mesclada, você poderá excluir sua ramifi
 
 <br/>
 
-## 📝 Licença
+## <a name='licença'></a> 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](./LICENSE.md) para obter detalhes.
 
