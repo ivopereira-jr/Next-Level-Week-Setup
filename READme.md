@@ -28,7 +28,7 @@
 - [Sobre](#Sobre-o-projeto)
 - [Layout](#layout)
 - [Tecnologias](#tecnologias)
-- [Começando](#começando)
+- [Começando](#Começando)
   - [Requisitos](#requisitos)
 - [Licença](#licença)
 <!--te-->
