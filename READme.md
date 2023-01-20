@@ -2,6 +2,17 @@
   <img src=".github/logo-nlw-setup.svg" width="100%">
 </h1>
 
+<br/>
+
+<img src=".github/Habits.png" width="100%">
+
+<br/>
+
+<h1 align="center">Habits</h1>
+<p align="center">uma ferramenta de acompanhamento de hábitos para o usuário colocar em prática suas resoluções e metas.</p>
+
+<br/>
+
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ivopereira-jr/Next-Level-Week-Setup" />
   
@@ -16,7 +27,9 @@
 
 <br/>
 
-<img src=".github/Habits.png" width="100%">
+<h2 align="center"> 
+	🚧  Habits 🚀 Em construção...  🚧
+</h2>
 
 <br/>
 
@@ -27,8 +40,7 @@
 - [Sobre](#sobre-o-projeto)
 - [Layout](#layout)
 - [Tecnologias](#tecnologias)
-- [Começando](#começando)
-  - [Requisitos](#requisitos)
+- [Requisitos](#pre-requisitos)
 - [Licença](#licença)
 
 <!-- vscode-markdown-toc -->
@@ -51,9 +63,9 @@ Lembrando que você precisa ter uma conta para acessá-lo [Figma](http://figma.c
 
 <br/>
 
-## <a name='tecnologias'></a> 🚀 Tecnologias
+## <a name='tecnologias'></a> 🛠️ Tecnologias
 
-Tecnologias utilizadas
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [Fastify](https://www.fastify.io/)
@@ -68,33 +80,35 @@ Tecnologias utilizadas
 
 <br/>
 
-## <a name='começando'></a> 💻 Começando
+## <a name='pre-requisitos'></a> 💻 Pré-requisitos
 
-### <a name='requisitos'></a> Requisitos
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) ou [npm](https://www.npmjs.com/)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 <br/>
 
-**Clone o projeto**
+## 🎲 Rodando o Back End (servidor)
+
+<br/>
 
 ```bash
-$ git clone hhttps://github.com/ivopereira-jr/Next-Level-Week-Setup
-```
+#Siga os passos abaixo
 
-**Siga os passos abaixo**
+# Clone este repositório
+$ git clone https://github.com/ivopereira-jr/Next-Level-Week-Setup.git
 
-### Backend
-
-```bash
 # A partir da pasta raiz do projeto, vá para a pasta server
 $ cd server
 
 # Instale as dependências
-$ yarn or npm i
+$ npm i
+# ou
+$ yarn
 
-# Execute o serviço api
+# execute a aplicação
+$ npm run dev
+# ou
 $ yarn dev
 
 # Muito bem, o projeto vai ser iniciado em.
@@ -102,34 +116,47 @@ http://localhost:3333
 
 ```
 
-### Web
+## 🖥️ Rodando o Front-End (web)
 
 _Obs.: Antes de continuar, certifique-se de ter a API em execução_
 
 ```bash
-# A partir da pasta raiz do projeto, vá para a pasta frontend
+# A partir da pasta raiz do projeto, vá para a pasta web
 $ cd web
 
 # Instale as dependências
-$ yarn ou npm i
+$ npm i
+# ou
+$ yarn
 
-# Iniciar o projeto
+# execute a aplicação
+$ npm run dev
+# ou
 $ yarn dev
+
+# Muito bem, o projeto vai ser iniciado em.
+http://localhost:5173
+
 ```
 
-### Mobile
+## 📱 Mobile
 
 _Obs.: Antes de continuar, certifique-se de ter a API em execução_
 
 ```bash
-# Starting from the project root folder, go to mobile folder
+# A partir da pasta raiz do projeto, vá para a pasta mobile
 $ cd mobile
 
 # Instale as dependências
-$ yarn ou npm i
+$ npm i
+# ou
+$ yarn
 
 # Iniciar o app
+$ npm start
+# ou
 $ yarn start
+
 
 # Se você vai emular com android, execute este comando
 # Certifique-se de ter o emulador aberto
