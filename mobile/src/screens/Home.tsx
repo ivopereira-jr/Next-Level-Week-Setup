@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
+import { useCallback, useState } from 'react';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { View, Text, ScrollView, Alert } from 'react-native';
 
 import { api } from '../lib/axios';
@@ -42,9 +42,11 @@ export function Home() {
 		}
 	}
 
-	useEffect(() => {
-		fectData();
-	}, []);
+	useFocusEffect(
+		useCallback(() => {
+			fectData();
+		}, [])
+	);
 
 	if (loading) {
 		return <Loading />;
