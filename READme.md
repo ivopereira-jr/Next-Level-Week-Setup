@@ -53,6 +53,14 @@ A Next Level Week Setup esta na 11º edição desse evento oferecido pela [Rocke
 
 <br/>
 
+## 🚀 Próximo nível
+
+- [ ] Autenticação
+- [ ] Notificações
+- [ ] Perfil público com resumo dos hábitos completados
+
+<br/>
+
 ## <a name='layout'></a> 🔖 Layout
 
 Você pode visualizar o layout do projeto através do link abaixo:
