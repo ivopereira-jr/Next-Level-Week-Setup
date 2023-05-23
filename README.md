@@ -28,7 +28,7 @@
 <br/>
 
 <h2 align="center"> 
-	🚧  Habits 🚀 Em construção...  🚧
+	Habits
 </h2>
 
 <br/>
