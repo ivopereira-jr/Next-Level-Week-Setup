@@ -27,12 +27,6 @@
 
 <br/>
 
-<h2 align="center"> 
-	Habits
-</h2>
-
-<br/>
-
 ## Tabela de conteúdos
 
 <!-- vscode-markdown-toc -->
